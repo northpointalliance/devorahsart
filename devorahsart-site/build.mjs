@@ -287,7 +287,7 @@ function homepageSeoSections() {
       answer:
         "Devorah sends your high-resolution file by email within 24 hours of PayPal payment. Most orders arrive the same day.",
       details:
-        "Instant delivery is one advantage digital downloads have over physical prints. There is no two-week shipping window. You can have the file tonight and print tomorrow morning. If an email does not arrive within 24 hours, check spam and reply to your PayPal receipt; the address on file is dan72ros@gmail.com.",
+        `Instant delivery is one advantage digital downloads have over physical prints. There is no two-week shipping window. You can have the file tonight and print tomorrow morning. If an email does not arrive within 24 hours, check spam and reply to your PayPal receipt; the address on file is ${site.paypalBusiness}.`,
       tldr: "Email delivery within 24 hours, often same day.",
       links: [{ href: "/thank-you/", label: "After checkout" }],
     }),
