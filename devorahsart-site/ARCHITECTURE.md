@@ -1,6 +1,6 @@
 # Devorah's Art: Architecture and Change Log
 
-Last updated: 2026-07-21
+Last updated: 2026-09-18
 
 This document describes how **devorahsart.com** works today, what changed from the old WordPress setup, and how to maintain the site going forward.
 
@@ -167,11 +167,15 @@ New pieces sort to the top of the shop (`isNew: true`) and show a **New** badge.
 
 Each product page has a hosted PayPal button form:
 
-- `business`: `dan72ros@gmail.com` (verify this matches PayPal Business email)
+- `business`: `dan73ros@gmail.com` (the PayPal-linked address; see the 18 September 2026 bug fix below, this was wrong for weeks)
 - `amount`: `10.00`
 - `currency_code`: `USD`
 - `no_shipping`: `1`
 - `return`: `https://devorahsart.com/thank-you/`
+
+**Two owner emails, not one, don't conflate them:**
+- `dan73ros@gmail.com` — the address actually linked to the PayPal account. Only used for the `business` value in PayPal buttons, i.e. where payment goes.
+- `dan72ros@gmail.com` — the inbox Daniel actually checks day to day. Used for the checkout-help notification below, i.e. where "something went wrong, please help" alerts go. Confirmed directly with Daniel; this is intentional, not a typo to unify.
 
 ### Fulfillment (current)
 
@@ -179,11 +183,29 @@ Each product page has a hosted PayPal button form:
 2. Devorah receives PayPal notification.
 3. High-resolution file emailed to buyer within **24 hours**.
 
+### Checkout-help notification (built 18 September 2026)
+
+Every product page has a "Trouble with checkout?" `<details>` block: customer enters their email and what happened, submits to `POST /api/notify` (`functions/api/notify.js`), which emails `dan72ros@gmail.com` so the order can be fulfilled manually. Self-contained in this Pages project via a `send_email` binding (`wrangler.toml`, binding name `EMAIL`), no separate Worker involved.
+
+This replaces an earlier, incomplete version of the same idea: `functions/api/notify.js` used to just forward the request, via a `[[services]]` binding, to a separate Worker called `devorahsart-notify` that composed and sent the email. That Worker was fully built and correct, but nothing on the live site ever called `/api/notify` at all, so the whole feature was silently unreachable from launch until this date. The separate Worker is now orphaned (still exists in the Cloudflare account, unused, not yet deleted, pending an explicit decision to remove it).
+
+**One-time setup this needs, not something a deploy or this repo can do on its own:** in the Cloudflare dashboard, `dan72ros@gmail.com` needs to be a verified destination address (Email Routing, or Email Service → Email Sending), and `info@prismpublication.com` (the `from` address used) needs to be an allowed/onboarded sender. Until that's done, submitting the form returns a clean "Email is not configured" error rather than silently failing.
+
 ### Fulfillment (future option)
 
 Automated delivery via Cloudflare Worker + email API when sales volume justifies it.
 
 ---
+
+## 6a. Cross-listing on Prism Publication (added 18 September 2026)
+
+Daniel owns both **devorahsart.com** and **prismpublication.com** (same person, same Cloudflare account). Prism runs a live AI chat at `prismpublication.com/run-ads/` that shows a sponsored card when a visitor's question closely matches an approved advertiser's creative.
+
+All 15 pieces here are now listed there too, as a "house ad": submitted and approved like a real advertiser campaign, but with no PayPal purchase behind the ad credit, since Daniel isn't paying himself for placement. Each piece has its own entry (title, Devorah's own one-sentence description, real product URL, her tags as matching keywords), so a visitor's question surfaces whichever piece actually fits, not one generic shop link.
+
+**The two systems don't share money or data.** Prism's ad-credit system only governs whether/how often the card shows in that chat, free, nominal, nothing to do with PayPal. If a visitor clicks through and actually buys a piece, that's a completely separate, real PayPal transaction on this site, using the `business` email above, full stop, unrelated to anything Prism tracks.
+
+This is documented in Prism's own memory (`mem/current.md` in the `prismpublication-sept` repo), not duplicated in full here. If devorahsart's catalog changes (a piece is added, removed, or retitled), Prism's copy of that listing does not update automatically, it would need updating separately on that side.
 
 ## 7. SEO, AEO, and GEO
 
@@ -310,6 +332,21 @@ Devorah Art JPG File/
 
 - Added `README.md` and this `ARCHITECTURE.md`
 
+### 2026-09-18: PayPal business email fixed (real bug, not cosmetic)
+
+- Every "Buy with PayPal" button on all 15 products, plus a reference in the delivery-FAQ text, was pointing to `dan72ros@gmail.com` instead of the actual PayPal-linked address, `dan73ros@gmail.com`. Fixed at the source (`data/products.json`'s `paypalBusiness` field) and rebuilt.
+- A second, independent copy of the same wrong email was hardcoded as a literal string inside `build.mjs` (not read from the JSON), so the JSON fix alone would not have caught it. Changed to read `site.paypalBusiness` instead, so it can't drift out of sync again.
+
+### 2026-09-18: Checkout-help notification finished
+
+- Built the frontend piece that was always missing: a "Trouble with checkout?" form on every product page.
+- Collapsed `functions/api/notify.js` from a proxy-to-another-Worker into a self-contained Pages Function with its own `send_email` binding. See section 6 above.
+- The separate `devorahsart-notify` Worker this replaced is now orphaned in the Cloudflare account, not deleted yet.
+
+### 2026-09-18: Cross-listed on Prism Publication
+
+- All 15 products submitted and approved as a house-ad campaign on `prismpublication.com/run-ads/`'s live chat. See section 6a above.
+
 ---
 
 ## 11. What is intentionally not built yet
@@ -332,10 +369,12 @@ Devorah Art JPG File/
 | `data/products.json` | Product catalog + site config (edit this to add art) |
 | `build.mjs` | HTML generator |
 | `css/styles.css` | All styles |
-| `wrangler.toml` | Cloudflare Pages project name |
+| `functions/api/notify.js` | Checkout-help email notification (self-contained Pages Function) |
+| `wrangler.toml` | Cloudflare Pages project name, `send_email` binding |
 | `_redirects` | Legacy URL redirects (regenerated) |
 | `../devorahsart-site-handover.md` | Pre-migration WordPress + DNS notes |
 | `../Devorahs-Art-Rethink-Plan.md` | Original rebuild decision doc |
+| `../mem/current.md` | Running decision log, read this first before making changes |
 
 ---
 
@@ -345,7 +384,10 @@ Devorah Art JPG File/
 DNS may still point to Hostinger. Confirm CNAME `@` → `devorahsart.pages.dev` in Cloudflare DNS and that Pages custom domain shows Active.
 
 **PayPal button fails**  
-Verify `site.paypalBusiness` in `products.json` matches the live PayPal Business email.
+Verify `site.paypalBusiness` in `products.json` matches the live PayPal Business email (`dan73ros@gmail.com`, not `dan72ros@gmail.com`, these are two different real inboxes, see section 6, this exact mix-up happened once already on 18 September 2026).
+
+**Checkout-help form submits but no email arrives**  
+Check the Cloudflare dashboard: is `dan72ros@gmail.com` a verified destination address (Email Routing / Email Sending), and is `info@prismpublication.com` an allowed sender? The form will show a clean error ("Email is not configured") if the `EMAIL` binding itself is missing, but a silent failure past that point means the verification step hasn't been done yet.
 
 **New product 404**  
 Run `npm run build` and redeploy. Check slug folder exists under `product/<slug>/index.html`.

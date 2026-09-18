@@ -8,6 +8,7 @@ Project folder for **devorahsart.com** and Devorah's art assets.
 
 | Doc | What it covers |
 |---|---|
+| [mem/current.md](./mem/current.md) | **Read this first.** Running decision log, most current source of truth |
 | [devorahsart-site/README.md](./devorahsart-site/README.md) | Quick start, build, deploy, add new art |
 | [devorahsart-site/ARCHITECTURE.md](./devorahsart-site/ARCHITECTURE.md) | Full architecture, migration, change log |
 

@@ -2,6 +2,8 @@
 
 Last updated: 2026-07-21
 
+**This document is historical**, it records the WordPress-to-Cloudflare-Pages migration as it happened in July 2026 and is kept as-is for that reason, not updated for later changes. For the site's actual current state, read [`mem/current.md`](./mem/current.md) first, then [`devorahsart-site/ARCHITECTURE.md`](./devorahsart-site/ARCHITECTURE.md) (see its Change Log for everything that's happened since, including the September 2026 PayPal fix, the checkout-help feature, and the Prism Publication cross-listing).
+
 ## 1. What this site is
 
 devorahsart.com sells Devorah's digital art (anime-inspired). Business owner: Daniel Rosenthal (dan72ros@gmail.com, +972 58 749 0020), based in Israel.

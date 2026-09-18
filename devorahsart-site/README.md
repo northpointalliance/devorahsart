@@ -34,7 +34,8 @@ devorahsart-site/
 ├── sitemap.xml           # Generated
 ├── robots.txt            # Generated
 ├── _redirects            # Cloudflare Pages redirects (old WordPress URLs)
-├── wrangler.toml         # Cloudflare Pages config
+├── functions/api/notify.js  # Checkout-help email notification (Pages Function)
+├── wrangler.toml         # Cloudflare Pages config, send_email binding
 └── ARCHITECTURE.md       # Full architecture + change log
 ```
 
@@ -89,4 +90,10 @@ See **[ARCHITECTURE.md](./ARCHITECTURE.md)** for the full migration story, stack
 
 ## Owner
 
-Daniel Rosenthal · dan72ros@gmail.com · Devorah's Art, Israel
+Daniel Rosenthal · Devorah's Art, Israel
+
+Two real, separate inboxes, don't conflate them:
+- `dan73ros@gmail.com` — linked to PayPal, used in the `business` field on every buy button, where payment goes.
+- `dan72ros@gmail.com` — checked constantly, used for checkout-help alerts, where "something went wrong" notifications go.
+
+Same person also owns `prismpublication.com`, same Cloudflare account. All 15 pieces here are cross-listed there as a sponsored card in its live chat, see `ARCHITECTURE.md` section 6a.
