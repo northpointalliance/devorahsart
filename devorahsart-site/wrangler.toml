@@ -2,6 +2,14 @@ name = "devorahsart"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "."
 
-[[services]]
-binding = "NOTIFY"
-service = "devorahsart-notify"
+# Checkout-help notifications (functions/api/notify.js) -- replaces the old
+# [[services]] binding to a separate "devorahsart-notify" Worker with a
+# direct send_email binding on this project. One-time setup needed in the
+# Cloudflare dashboard before this actually delivers mail: Email Routing
+# (or Email Service > Email Sending) needs dan72ros@gmail.com verified as
+# a destination address, and info@prismpublication.com onboarded/allowed
+# as a sender. Neither of those is something this repo or a deploy can do
+# on its own.
+[[send_email]]
+name = "EMAIL"
+destination_address = "dan72ros@gmail.com"

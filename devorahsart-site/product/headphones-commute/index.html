@@ -45,6 +45,43 @@
     <button type="submit" class="btn-buy">Buy with PayPal for $10</button>
   </form>
           <p class="delivery-note">After payment, your high-resolution file is delivered by email within 24 hours.</p>
+          <details class="checkout-help">
+            <summary>Trouble with checkout?</summary>
+            <form id="checkout-help-form" novalidate>
+              <label for="ch-email">Your email</label><br>
+              <input id="ch-email" name="email" type="email" required style="width: 100%; padding: 0.5rem; margin: 0.25rem 0 0.75rem;">
+              <label for="ch-message">What happened?</label><br>
+              <textarea id="ch-message" name="message" maxlength="2000" rows="3" style="width: 100%; padding: 0.5rem; margin: 0.25rem 0 0.75rem;"></textarea>
+              <button type="submit">Send</button>
+              <p id="checkout-help-status" role="status"></p>
+            </form>
+          </details>
+          <script>
+            (function () {
+              var form = document.getElementById("checkout-help-form");
+              var status = document.getElementById("checkout-help-status");
+              form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                status.textContent = "Sending...";
+                fetch("/api/notify", {
+                  method: "POST",
+                  headers: { "content-type": "application/json" },
+                  body: JSON.stringify({
+                    customerEmail: document.getElementById("ch-email").value,
+                    selectedArtwork: "Headphones Commute",
+                    issueMessage: document.getElementById("ch-message").value
+                  })
+                })
+                  .then(function (res) { return res.json(); })
+                  .then(function (data) {
+                    status.textContent = data.success ? "Sent. We will follow up by email." : (data.error || "Something went wrong.");
+                  })
+                  .catch(function () {
+                    status.textContent = "Could not send right now. Try again in a moment.";
+                  });
+              });
+            })();
+          </script>
           <ul class="tags" aria-label="Tags"><li>commute art</li><li>headphones portrait</li><li>everyday life painting</li><li>digital download</li><li>printable wall art</li></ul>
         </div>
       </div>
