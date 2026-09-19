@@ -1,258 +1,472 @@
 {
-  "site": {
-    "name": "Devorah's Art",
-    "url": "https://devorahsart.com",
-    "paypalBusiness": "dan73ros@gmail.com",
-    "tagline": "Bold, hand-painted art you can own for $10",
-    "intro": "Original acrylic portraits by Devorah, a young Israeli artist. Each piece is a high-resolution digital download, ready to print and hang at home.",
-    "lastUpdated": "2026-07-21"
-  },
-  "products": [
-    {
-      "id": "headphones-commute",
-      "title": "Headphones Commute",
-      "slug": "headphones-commute",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/headphones-commute.jfif",
-      "imageAlt": "Hand-painted portrait of two women on a bus wearing headphones",
-      "seoTitle": "Headphones Commute | Bus Portrait Painting | Digital Art Download",
-      "metaDescription": "A painterly portrait of everyday commute life: two women lost in their headphones on a bus. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "Headphones Commute captures a moment everyone knows: the quiet bubble of music on a crowded bus. Two women sit in their own worlds: one scrolling her phone, one staring out the window, connected only by the shared rhythm in their ears. Devorah painted it in loose, expressive brushstrokes with muted greys and bold purple stripes, the kind of everyday scene that feels instantly familiar. You receive a high-resolution digital file, ready to print at home or through any print shop, in whatever size fits your wall. Affordable original art from a young Israeli artist's studio.",
-      "faqQuestion": "What is Headphones Commute?",
-      "faqAnswer": "Headphones Commute is an original acrylic painting of two women on public transport, each absorbed in their own music. It is sold as a high-resolution digital download for $10, ready to print at any size.",
-      "tags": ["commute art", "headphones portrait", "everyday life painting", "digital download", "printable wall art"],
-      "useCase": "living rooms, commuter apartments, and creative spaces that celebrate everyday urban life"
-    },
-    {
-      "id": "colorful-confidence",
-      "title": "Colorful Confidence",
-      "slug": "girl-with-orange-green-blue",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/colorful-confidence.jpeg",
-      "imageAlt": "Colorful anime-style portrait of a girl in orange, green and blue",
-      "seoTitle": "Colorful Confidence | Bold Anime-Style Girl Portrait | Digital Art Print",
-      "metaDescription": "A vibrant portrait of a girl in orange, green and blue. Hand-painted by artist Devorah, sold as an instant high-res digital download. Print any size for $10.",
-      "description": "Colorful Confidence is a portrait that refuses to be quiet. Painted in bold orange, green and blue, it captures a young woman completely at ease in her own skin. Devorah's brushwork is loose and expressive, with a nod to anime and pop art. You receive a high-resolution digital file, ready to print at home or through any print shop, in whatever size fits your wall. A cheerful, affordable piece for a bedroom, studio, or creative workspace.",
-      "faqQuestion": "What is Colorful Confidence?",
-      "faqAnswer": "Colorful Confidence is a bold anime-influenced portrait in orange, green and blue. It is sold as a high-resolution digital download for $10, ready to print at any size.",
-      "tags": ["anime portrait", "colorful wall art", "girl painting", "digital download", "printable art"],
-      "useCase": "bedrooms, creative studios, and dorm rooms that need a burst of color"
-    },
-    {
-      "id": "fathers-gaze",
-      "title": "Father's Gaze",
-      "slug": "portrait-of-father",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/fathers-gaze.jpeg",
-      "imageAlt": "Expressive acrylic portrait of a father",
-      "seoTitle": "Father's Gaze | Expressive Portrait Painting | Digital Art Download",
-      "metaDescription": "A quiet, moving portrait of a father. Original acrylic painting by Devorah, delivered as a high-res digital download you can print at any size. $10.",
-      "description": "Father's Gaze is a study in quiet strength. There is a whole life in the eyes: patience, tenderness, the weight a parent carries without saying a word. Devorah paints it with warm, honest brushstrokes rather than perfect lines, which is exactly what gives it feeling. The piece arrives as a high-resolution digital file, ready to print and frame. A heartfelt gift for Father's Day, a birthday, or anyone who wants art with real emotion.",
-      "faqQuestion": "What is Father's Gaze?",
-      "faqAnswer": "Father's Gaze is an expressive acrylic portrait of a father, sold as a high-resolution digital download for $10. Print it at any size for a meaningful gift or home display.",
-      "tags": ["father portrait", "expressive painting", "meaningful gift", "digital download", "printable wall art"],
-      "useCase": "home offices, family rooms, and Father's Day gifts"
-    },
-    {
-      "id": "free-spirit",
-      "title": "Free Spirit",
-      "slug": "girl-with-the-wild-hair",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/free-spirit.jpg",
-      "imageAlt": "Anime-inspired portrait of a girl with wild hair",
-      "seoTitle": "Free Spirit | Wild-Haired Girl Portrait | Anime-Inspired Digital Print",
-      "metaDescription": "A fearless portrait of a girl with untamed hair and bold color. Hand-painted by Devorah, sold as an instant high-res digital download. Print any size, $10.",
-      "description": "Free Spirit is all energy. Wild hair, vivid color, and an expression that says she answers to no one. It's a celebration of individuality and living on your own terms. Painted by Devorah in her loose, anime-influenced style, the piece comes to you as a high-resolution digital download you can print at any size. Perfect for anyone who wants a little daily reminder to be unapologetically themselves.",
-      "faqQuestion": "What is Free Spirit?",
-      "faqAnswer": "Free Spirit is a wild-haired girl portrait in Devorah's anime-influenced style. It is a $10 high-resolution digital download you can print at any size.",
-      "tags": ["anime girl art", "colorful portrait", "empowering wall art", "digital download", "printable art"],
-      "useCase": "teen bedrooms, dorm rooms, and spaces that celebrate individuality"
-    },
-    {
-      "id": "pop-icon-tribute",
-      "title": "Pop Icon Tribute",
-      "slug": "taylor-swift-art-cover",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/pop-icon-tribute.jpg",
-      "imageAlt": "Colorful pop art tribute portrait",
-      "seoTitle": "Pop Icon Tribute | Fan Art Portrait | Digital Art Print Download",
-      "metaDescription": "A bold, colorful tribute portrait in Devorah's expressive style. Instant high-res digital download, ready to print at any size. $10.",
-      "description": "Pop Icon Tribute is Devorah's take on modern fame and the artists who shape a generation's music. Painted in bright, confident color, it's a fan's love letter rendered in acrylic. You receive a high-resolution digital file, ready to print for a bedroom wall, a dorm, or a gallery corner. Affordable, expressive, and full of personality.",
-      "faqQuestion": "What is Pop Icon Tribute?",
-      "faqAnswer": "Pop Icon Tribute is a colorful fan-art portrait in Devorah's expressive style. It is sold as a $10 high-resolution digital download ready to print at any size.",
-      "tags": ["pop art portrait", "fan art", "colorful wall art", "digital download", "printable art"],
-      "useCase": "music fans' bedrooms, dorm walls, and pop-culture gallery corners"
-    },
-    {
-      "id": "silent-expressions",
-      "title": "Silent Expressions",
-      "slug": "feeling-unheard",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/silent-expressions.jpg",
-      "imageAlt": "Emotional portrait painting of a girl feeling unheard",
-      "seoTitle": "Silent Expressions | Emotional Portrait Painting | Digital Art Download",
-      "metaDescription": "A moving portrait about feeling unheard. Hand-painted by artist Devorah, sold as a high-res digital download you can print at any size. $10.",
-      "description": "Silent Expressions puts a feeling almost everyone knows into paint: the ache of not being heard. It's honest and a little raw, which is what makes it connect. Devorah's expressive brushwork carries the emotion more than any perfect detail could. The piece arrives as a high-resolution digital download, ready to print and frame. Art for anyone who values feeling over polish.",
-      "faqQuestion": "What is Silent Expressions?",
-      "faqAnswer": "Silent Expressions is an emotional portrait about feeling unheard, sold as a $10 high-resolution digital download you can print at any size.",
-      "tags": ["emotional art", "expressive portrait", "meaningful wall art", "digital download", "printable art"],
-      "useCase": "quiet corners, journaling spaces, and rooms where thoughtful art belongs"
-    },
-    {
-      "id": "together-forever",
-      "title": "Together Forever",
-      "slug": "portrait-with-dog",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/together-forever.jpeg",
-      "imageAlt": "Warm portrait of a girl and her dog",
-      "seoTitle": "Together Forever | Girl and Dog Portrait | Digital Art Print Download",
-      "metaDescription": "A warm portrait of the bond between a girl and her dog. Original painting by Devorah, delivered as a high-res digital download. Print any size, $10.",
-      "description": "Together Forever captures the simplest kind of love: a girl and her dog, completely at home with each other. It's warm, tender, and instantly relatable to anyone who has a pet they'd do anything for. Painted in Devorah's expressive style and delivered as a high-resolution digital download, ready to print at any size. A perfect gift for a dog lover or a family that treats their pet like one of their own.",
-      "faqQuestion": "What is Together Forever?",
-      "faqAnswer": "Together Forever is a warm girl-and-dog portrait sold as a $10 high-resolution digital download, ready to print at any size.",
-      "tags": ["dog portrait", "pet art", "girl and dog", "digital download", "printable wall art"],
-      "useCase": "pet lovers' homes, family rooms, and heartfelt gift walls"
-    },
-    {
-      "id": "warm-reflections",
-      "title": "Warm Reflections",
-      "slug": "girl-with-brown-hair",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/warm-reflections.jpeg",
-      "imageAlt": "Soft portrait of a brown-haired girl",
-      "seoTitle": "Warm Reflections | Girl Portrait Painting | Digital Art Print Download",
-      "metaDescription": "A soft, warm portrait of a brown-haired girl lost in thought. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "Warm Reflections is a quiet, thoughtful portrait of a girl caught in a private moment. Soft brown tones and gentle brushwork give it a calm, contemplative mood, the kind of piece that makes a room feel warmer. Painted by Devorah and delivered as a high-resolution digital download, ready to print and frame at any size. A gentle, affordable choice for a bedroom, reading nook, or quiet corner.",
-      "faqQuestion": "What is Warm Reflections?",
-      "faqAnswer": "Warm Reflections is a soft brown-haired girl portrait sold as a $10 high-resolution digital download, ready to print at any size.",
-      "tags": ["girl portrait", "warm wall art", "contemplative art", "digital download", "printable art"],
-      "useCase": "bedrooms, reading nooks, and calm spaces that need warmth"
-    },
-    {
-      "id": "comfort-in-quiet",
-      "title": "Comfort in Quiet",
-      "slug": "teddy-bear",
-      "price": 10,
-      "currency": "USD",
-      "image": "/assets/images/comfort-in-quiet.png",
-      "imageAlt": "Tender painting of a teddy bear for a nursery",
-      "seoTitle": "Comfort in Quiet | Teddy Bear Painting | Nursery Digital Art Print",
-      "metaDescription": "A tender teddy bear painting about comfort and safety. Hand-painted by Devorah, sold as a high-res digital download. Perfect for a nursery. $10.",
-      "description": "Comfort in Quiet is a small, tender painting of a teddy bear, that first friend who makes everything feel safe. It's nostalgic and soothing, which makes it lovely for a child's room, a nursery, or anyone who never quite let go of theirs. Painted in Devorah's soft, expressive style and delivered as a high-resolution digital download, ready to print at any size. A sweet, affordable gift for a new baby or a big kid at heart.",
-      "faqQuestion": "What is Comfort in Quiet?",
-      "faqAnswer": "Comfort in Quiet is a tender teddy bear painting sold as a $10 high-resolution digital download, perfect for a nursery or child's room.",
-      "tags": ["teddy bear art", "nursery wall art", "kids room decor", "digital download", "printable art"],
-      "useCase": "nurseries, children's bedrooms, and baby shower gifts"
-    },
-    {
-      "id": "at-the-easel",
-      "title": "At the Easel",
-      "slug": "at-the-easel",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/artist-at-work-peach.jpg",
-      "imageAlt": "Hand-painted illustration of an artist painting at a wooden easel",
-      "seoTitle": "At the Easel | Artist Studio Painting | Digital Art Download",
-      "metaDescription": "A charming painting of an artist at work on a stool before her easel. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "At the Easel is a warm, folk-art portrait of the creative moment itself: a painter on a stool, brush in hand, palette full of color, lost in the small landscape taking shape on the canvas. Devorah painted it in bold, simple strokes against a soft peach wall, signed in her own hand at the bottom. It is the kind of piece that makes a studio, bedroom, or gift feel personal. You receive a high-resolution digital file, ready to print at home or through any print shop, in whatever size fits your wall.",
-      "faqQuestion": "What is At the Easel?",
-      "faqAnswer": "At the Easel is an original painting of an artist working at her easel, sold as a $10 high-resolution digital download ready to print at any size.",
-      "tags": ["artist at work", "studio art", "easel painting", "digital download", "printable wall art"],
-      "useCase": "art studios, creative workspaces, and gifts for painters"
-    },
-    {
-      "id": "sunlight-on-canvas",
-      "title": "Sunlight on the Canvas",
-      "slug": "sunlight-on-canvas",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/sunlight-on-canvas.jpg",
-      "imageAlt": "Expressive painting of an artist lit by a beam of sunlight at her easel",
-      "seoTitle": "Sunlight on the Canvas | Studio Portrait Painting | Digital Art Download",
-      "metaDescription": "An expressive painting of an artist in a golden beam of light, working at her easel. By Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "Sunlight on the Canvas catches a private studio moment: a figure in blue and green, seated before an easel, while a diagonal shaft of light cuts across a rich ochre wall. The mood is quiet and focused, the kind of concentration that happens when the outside world falls away and only the painting matters. Devorah built the scene with loose, textured brushwork and signed it in Hebrew at the corner. You receive a high-resolution digital file, ready to print at any size for a studio wall, bedroom, or anywhere you want art about making art.",
-      "faqQuestion": "What is Sunlight on the Canvas?",
-      "faqAnswer": "Sunlight on the Canvas is an original studio painting of an artist at her easel in golden light, sold as a $10 high-resolution digital download.",
-      "tags": ["artist portrait", "studio painting", "golden light art", "digital download", "printable art"],
-      "useCase": "studios, reading nooks, and spaces that celebrate the creative process"
-    },
-    {
-      "id": "window-seat-waves",
-      "title": "Window Seat Waves",
-      "slug": "window-seat-waves",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/window-seat-waves.jpg",
-      "imageAlt": "Digital painting of a woman on a window seat watching surfers and seagulls",
-      "seoTitle": "Window Seat Waves | Coastal Window Art | Digital Art Download",
-      "metaDescription": "A colorful painting of a woman on a window seat, watching surfers and birds through a grid of panes. By Devorah, sold as a high-res digital download. $10.",
-      "description": "Window Seat Waves is a daydream in paint. A woman with orange hair sits barefoot on a cushioned ledge, looking out through a large window at the sea: gulls crossing a blue sky, white-tipped waves, tiny surfers on green and pink boards. The room is cozy and the world outside is bright. Devorah painted it in flat, confident color with a calm, summery mood. You receive a high-resolution digital file, ready to print at any size. Perfect for a bedroom, coastal-themed room, or anyone who loves the view more than the destination.",
-      "faqQuestion": "What is Window Seat Waves?",
-      "faqAnswer": "Window Seat Waves is an original coastal window painting sold as a $10 high-resolution digital download, ready to print at any size.",
-      "tags": ["coastal art", "window seat painting", "surfer art", "digital download", "printable wall art"],
-      "useCase": "bedrooms, beach houses, and calm spaces with a travel mood"
-    },
-    {
-      "id": "radiant-joy",
-      "title": "Radiant Joy",
-      "slug": "radiant-joy",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/joyful-orange-hair.jpg",
-      "imageAlt": "Expressive portrait of a smiling woman with wild orange hair and blue eyes",
-      "seoTitle": "Radiant Joy | Orange Hair Portrait | Digital Art Print Download",
-      "metaDescription": "A joyful portrait of a woman with wild orange hair and a wide smile, surrounded by glowing yellow orbs. By Devorah, sold as a high-res digital download. $10.",
-      "description": "Radiant Joy is pure energy on canvas. Wild orange-red hair frames a face lit by a huge, honest smile and bright blue eyes, while soft yellow circles float in the background like little suns. Devorah painted it in expressive, folk-inspired strokes that favor feeling over perfect lines. The result is cheerful, bold, and impossible to ignore on a wall. You receive a high-resolution digital file, ready to print at home or at any print shop, in whatever size fits your space.",
-      "faqQuestion": "What is Radiant Joy?",
-      "faqAnswer": "Radiant Joy is a bold smiling portrait with wild orange hair, sold as a $10 high-resolution digital download ready to print at any size.",
-      "tags": ["joyful portrait", "orange hair art", "expressive face painting", "digital download", "printable art"],
-      "useCase": "bedrooms, dorm rooms, and anywhere that needs a burst of happiness"
-    },
-    {
-      "id": "many-faces",
-      "title": "Many Faces",
-      "slug": "many-faces",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/four-faces.jpg",
-      "imageAlt": "Illustration of four overlapping stylized female faces in colored pencil",
-      "seoTitle": "Many Faces | Surreal Portrait Illustration | Digital Art Download",
-      "metaDescription": "A surreal illustration of four overlapping female faces in bold color and pencil. Hand-drawn by Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "Many Faces explores identity through layered portraits: four stylized women emerging from one another, skin tones ranging from light to warm brown, eyes left dreamily blank, background alive with blue, yellow, and red energy. Devorah drew it in colored pencil with an illustrative, slightly surreal touch. It is thoughtful without being heavy, and it looks striking at poster size. You receive a high-resolution digital file, ready to print for a studio, bedroom, or any wall that celebrates complexity and color.",
-      "faqQuestion": "What is Many Faces?",
-      "faqAnswer": "Many Faces is a surreal colored-pencil portrait of four overlapping women, sold as a $10 high-resolution digital download.",
-      "tags": ["surreal portrait", "diverse faces art", "colored pencil illustration", "digital download", "printable art"],
-      "useCase": "creative studios, modern bedrooms, and gallery-style accent walls"
-    },
-    {
-      "id": "through-the-lens",
-      "title": "Through the Lens",
-      "slug": "through-the-lens",
-      "price": 10,
-      "currency": "USD",
-      "isNew": true,
-      "image": "/assets/images/camera-and-smile.jpg",
-      "imageAlt": "Manga-style two-panel drawing of a photographer and a laughing subject",
-      "seoTitle": "Through the Lens | Manga Comic Art Print | Digital Art Download",
-      "metaDescription": "A sweet two-panel manga drawing of a photographer and the smile they capture. Hand-drawn by Devorah, sold as a high-res digital download. Print any size, $10.",
-      "description": "Through the Lens is a small story in two panels. Above, a figure with glasses lifts a camera to their eye. Below, framed like a viewfinder, someone laughs with eyes closed beside a tree, a tiny heart floating nearby. Devorah drew it in ink and grey wash on notebook paper, anime-influenced and tender. It is about noticing someone and catching a moment that would otherwise disappear. You receive a high-resolution digital file, ready to print at any size for a bedroom, dorm, or gift between friends.",
-      "faqQuestion": "What is Through the Lens?",
-      "faqAnswer": "Through the Lens is an original two-panel manga-style drawing about photography and joy, sold as a $10 high-resolution digital download.",
-      "tags": ["manga art", "comic panel drawing", "photography art", "digital download", "printable wall art"],
-      "useCase": "dorm rooms, anime fans' walls, and thoughtful friendship gifts"
-    }
-  ]
+"site": {
+"name": "Devorah's Art",
+"url": "https://devorahsart.com",
+"paypalBusiness": "dan73ros@gmail.com",
+"tagline": "Bold, hand-crafted art you can own starting at $3",
+"intro": "Original hand-painted acrylics and sketches by Devorah. Instant high-resolution downloads ready to print.",
+"lastUpdated": "2026-08-26"
+},
+"products": [
+{
+"id": "jasmine",
+"title": "Jasmine",
+"slug": "jasmine",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/jasmine.png",
+"imageAlt": "Anime-style colored pencil sketch of a girl looking over her shoulder in a sketchbook",
+"seoTitle": "Jasmine | Anime Sketchbook Portrait | Digital Art Download",
+"metaDescription": "An anime-influenced sketchbook portrait of a girl with wild hair looking over her shoulder. Drawn by Devorah in colored pencil, sold as a high-res digital download. $5.",
+"description": "Jasmine is a sketchbook portrait full of attitude and anime energy. A girl in a red tank top glances back over her shoulder, mouth open mid-word, her dark hair tied in a messy ponytail that spills across the page. Devorah drew her in graphite and colored pencil on spiral-bound paper, with a small flower doodle and her Hebrew signature tucked in the corner. It is early work with real personality: loose lines, big eyes, and the feeling of someone caught in a moment. You receive a high-resolution digital file, ready to print at any size for a bedroom, dorm, or any space that loves manga-style art.",
+"faqQuestion": "What is Jasmine?",
+"faqAnswer": "Jasmine is an anime-influenced colored-pencil sketchbook portrait of a girl looking over her shoulder. It is sold as a $5 high-resolution digital download ready to print at any size.",
+"tags": [
+"anime portrait",
+"sketchbook art",
+"colored pencil sketch",
+"manga girl art",
+"digital download",
+"printable wall art"
+],
+"useCase": "teen bedrooms, dorm rooms, and spaces for anime and manga fans",
+"artwork": {
+"created": {
+"label": "Unknown (possibly 2017 or 2019)"
+},
+"context": "Graphite and colored pencil in a spiral-bound sketchbook"
+},
+"type": "Traditional"
+},
+{
+"id": "sunset-on-the-lake",
+"title": "Sunset on The Lake",
+"slug": "sunset-on-the-lake",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/sunset-on-the-lake.png",
+"imageAlt": "Colored pencil sketch of a girl watching a yellow sunset over a lake",
+"seoTitle": "Sunset on The Lake | Colored Pencil Lake Art | Digital Art Download",
+"metaDescription": "A youthful colored-pencil sketch of a girl on the shore watching a bright sunset over the water. Hand-drawn by Devorah, sold as a high-res digital download. $5.",
+"description": "Sunset on The Lake is an early sketchbook drawing: a girl in a red shirt and green skirt sits on a rocky shore, watching a big yellow sun sink over blue-green water while the sky swirls with purple and blue strokes. Devorah drew it in colored pencil on spiral-bound paper, with the loose, honest energy of someone learning to capture light and feeling at once. You receive a high-resolution digital file, ready to print at any size for a bedroom, dorm, or anywhere you want art with warmth and nostalgia.",
+"faqQuestion": "What is Sunset on The Lake?",
+"faqAnswer": "Sunset on The Lake is a colored-pencil sketchbook drawing of a girl watching the sun set over water, sold as a $5 high-resolution digital download ready to print at any size.",
+"tags": [
+"sunset art",
+"lake painting",
+"colored pencil sketch",
+"sketchbook art",
+"digital download",
+"printable wall art"
+],
+"useCase": "bedrooms, dorm rooms, and calm spaces that need warm, nostalgic color",
+"artwork": {
+"created": {
+"label": "Unknown (possibly 7th grade)"
+},
+"context": "Colored pencil/crayon in a spiral-bound sketchbook"
+},
+"type": "Traditional"
+},
+{
+"id": "the-woman-on-the-bus",
+"title": "The Woman on the Bus",
+"slug": "the-woman-on-the-bus",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/headphones-commute.jfif",
+"imageAlt": "Hand-painted portrait of two women on a bus wearing headphones",
+"seoTitle": "The Woman on the Bus | Bus Portrait Painting | Digital Art Download",
+"metaDescription": "The Woman on the Bus: a painterly portrait of two women lost in their headphones on public transport. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $5.",
+"description": "The Woman on the Bus captures a moment everyone knows: the quiet bubble of music on a crowded bus. Two women sit in their own worlds: one scrolling her phone, one staring out the window, connected only by the shared rhythm in their ears. Devorah painted it in loose, expressive brushstrokes with muted greys and bold purple stripes, the kind of everyday scene that feels instantly familiar. You receive a high-resolution digital file, ready to print at home or through any print shop, in whatever size fits your wall. Affordable original art from a young Israeli artist's studio.",
+"faqQuestion": "What is The Woman on the Bus?",
+"faqAnswer": "The Woman on the Bus is an original acrylic painting of two women on public transport, each absorbed in their own music. It is sold as a high-resolution digital download for $5, ready to print at any size.",
+"tags": [
+"commute art",
+"headphones portrait",
+"bus painting",
+"everyday life painting",
+"digital download",
+"printable wall art"
+],
+"useCase": "living rooms, commuter apartments, and creative spaces that celebrate everyday urban life",
+"artwork": {
+"formerTitle": "Headphones Commute"
+},
+"type": "Traditional"
+},
+{
+"id": "fathers-gaze",
+"title": "Father's Gaze",
+"slug": "portrait-of-father",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/fathers-gaze.jpeg",
+"imageAlt": "Expressive acrylic portrait of a father",
+"seoTitle": "Father's Gaze | Expressive Portrait Painting | Digital Art Download",
+"metaDescription": "A quiet, moving portrait of a father. Original acrylic painting by Devorah, delivered as a high-res digital download you can print at any size. $5.",
+"description": "Father's Gaze is a study in quiet strength. There is a whole life in the eyes: patience, tenderness, the weight a parent carries without saying a word. Devorah paints it with warm, honest brushstrokes rather than perfect lines, which is exactly what gives it feeling. The piece arrives as a high-resolution digital file, ready to print and frame. A heartfelt gift for Father's Day, a birthday, or anyone who wants art with real emotion.",
+"faqQuestion": "What is Father's Gaze?",
+"faqAnswer": "Father's Gaze is an expressive acrylic portrait of a father, sold as a high-resolution digital download for $5. Print it at any size for a meaningful gift or home display.",
+"tags": [
+"father portrait",
+"expressive painting",
+"meaningful gift",
+"digital download",
+"printable wall art"
+],
+"useCase": "home offices, family rooms, and Father's Day gifts",
+"type": "Traditional"
+},
+{
+"id": "free-spirit",
+"title": "Free Spirit",
+"slug": "girl-with-the-wild-hair",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/free-spirit.jpg",
+"imageAlt": "Anime-inspired portrait of a girl with wild hair",
+"seoTitle": "Free Spirit | Wild-Haired Girl Portrait | Anime-Inspired Digital Print",
+"metaDescription": "A fearless portrait of a girl with untamed hair and bold color. Hand-painted by Devorah, sold as an instant high-res digital download. Print any size, $5.",
+"description": "Free Spirit is all energy. Wild hair, vivid color, and an expression that says she answers to no one. It's a celebration of individuality and living on your own terms. Painted by Devorah in her loose, anime-influenced style, the piece comes to you as a high-resolution digital download you can print at any size. Perfect for anyone who wants a little daily reminder to be unapologetically themselves.",
+"faqQuestion": "What is Free Spirit?",
+"faqAnswer": "Free Spirit is a wild-haired girl portrait in Devorah's anime-influenced style. It is a $5 high-resolution digital download you can print at any size.",
+"tags": [
+"anime girl art",
+"colorful portrait",
+"empowering wall art",
+"digital download",
+"printable art"
+],
+"useCase": "teen bedrooms, dorm rooms, and spaces that celebrate individuality",
+"type": "Traditional"
+},
+{
+"id": "pop-icon-tribute",
+"title": "Taylor Swift Tribute (The Eras Tour)",
+"slug": "taylor-swift-art-cover",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/pop-icon-tribute.jpg",
+"imageAlt": "Colorful Eras Tour-inspired album cover art tribute portrait",
+"seoTitle": "Taylor Swift Tribute | The Eras Tour Album Cover Art | Digital Print",
+"metaDescription": "Bold Eras Tour-inspired album cover art tribute in Devorah's expressive style. Created in 2024. High-res digital download, ready to print at any size. $5.",
+"description": "Taylor Swift Tribute (The Eras Tour) is Devorah's painted take on iconic album-cover energy: bright, confident color and fan-art love for a generation-defining tour. She created the original piece in 2024, working in expressive acrylic with a pop-art edge. You receive a high-resolution digital file, ready to print for a bedroom wall, a dorm, or a music fan's gallery corner. Affordable, expressive, and full of personality.",
+"faqQuestion": "What is Taylor Swift Tribute (The Eras Tour)?",
+"faqAnswer": "It is a colorful Eras Tour-inspired album cover art tribute painted by Devorah in 2024, sold as a $5 high-resolution digital download ready to print at any size.",
+"tags": [
+"eras tour art",
+"pop art portrait",
+"fan art",
+"album cover art",
+"digital download",
+"printable art"
+],
+"useCase": "music fans' bedrooms, dorm walls, and pop-culture gallery corners",
+"artwork": {
+"original": {
+"timeframe": "2024"
+}
+},
+"type": "Traditional"
+},
+{
+"id": "silent-expressions",
+"title": "Silent Expressions",
+"slug": "feeling-unheard",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/silent-expressions.jpg",
+"imageAlt": "Emotional portrait painting of a girl feeling unheard",
+"seoTitle": "Silent Expressions | Emotional Portrait Painting | Digital Art Download",
+"metaDescription": "A moving portrait about feeling unheard. Hand-painted by artist Devorah, sold as a high-res digital download you can print at any size. $5.",
+"description": "Silent Expressions puts a feeling almost everyone knows into paint: the ache of not being heard. It's honest and a little raw, which is what makes it connect. Devorah's expressive brushwork carries the emotion more than any perfect detail could. The piece arrives as a high-resolution digital download, ready to print and frame. Art for anyone who values feeling over polish.",
+"faqQuestion": "What is Silent Expressions?",
+"faqAnswer": "Silent Expressions is an emotional portrait about feeling unheard, sold as a $5 high-resolution digital download you can print at any size.",
+"tags": [
+"emotional art",
+"expressive portrait",
+"meaningful wall art",
+"digital download",
+"printable art"
+],
+"useCase": "quiet corners, journaling spaces, and rooms where thoughtful art belongs",
+"type": "Traditional"
+},
+{
+"id": "together-forever",
+"title": "Together Forever",
+"slug": "portrait-with-dog",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/together-forever.jpeg",
+"imageAlt": "Warm portrait of a girl and her dog",
+"seoTitle": "Together Forever | Girl and Dog Portrait | Digital Art Print Download",
+"metaDescription": "A warm portrait of the bond between a girl and her dog. Original painting by Devorah, delivered as a high-res digital download. Print any size, $5.",
+"description": "Together Forever captures the simplest kind of love: a girl and her dog, completely at home with each other. It's warm, tender, and instantly relatable to anyone who has a pet they'd do anything for. Painted in Devorah's expressive style and delivered as a high-resolution digital download, ready to print at any size. A perfect gift for a dog lover or a family that treats their pet like one of their own.",
+"faqQuestion": "What is Together Forever?",
+"faqAnswer": "Together Forever is a warm girl-and-dog portrait sold as a $5 high-resolution digital download, ready to print at any size.",
+"tags": [
+"dog portrait",
+"pet art",
+"girl and dog",
+"digital download",
+"printable wall art"
+],
+"useCase": "pet lovers' homes, family rooms, and heartfelt gift walls",
+"type": "Traditional"
+},
+{
+"id": "comfort-in-quiet",
+"title": "Comfort in Quiet",
+"slug": "teddy-bear",
+"price": 5,
+"currency": "USD",
+"image": "/assets/images/comfort-in-quiet.png",
+"imageAlt": "Tender painting of a teddy bear for a nursery",
+"seoTitle": "Comfort in Quiet | Teddy Bear Painting | Nursery Digital Art Print",
+"metaDescription": "A tender teddy bear painting about comfort and safety. Hand-painted by Devorah, sold as a high-res digital download. Perfect for a nursery. $5.",
+"description": "Comfort in Quiet is a small, tender painting of a teddy bear, that first friend who makes everything feel safe. It's nostalgic and soothing, which makes it lovely for a child's room, a nursery, or anyone who never quite let go of theirs. Painted in Devorah's soft, expressive style and delivered as a high-resolution digital download, ready to print at any size. A sweet, affordable gift for a new baby or a big kid at heart.",
+"faqQuestion": "What is Comfort in Quiet?",
+"faqAnswer": "Comfort in Quiet is a tender teddy bear painting sold as a $5 high-resolution digital download, perfect for a nursery or child's room.",
+"tags": [
+"teddy bear art",
+"nursery wall art",
+"kids room decor",
+"digital download",
+"printable art"
+],
+"useCase": "nurseries, children's bedrooms, and baby shower gifts",
+"type": "Traditional"
+},
+{
+"id": "at-the-easel",
+"title": "At the Easel",
+"slug": "at-the-easel",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/artist-at-work-peach.jpg",
+"imageAlt": "Hand-painted illustration of an artist painting at a wooden easel",
+"seoTitle": "At the Easel | Artist Studio Painting | Digital Art Download",
+"metaDescription": "A charming painting of an artist at work on a stool before her easel. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $5.",
+"description": "At the Easel is a warm, folk-art portrait of the creative moment itself: a painter on a stool, brush in hand, palette full of color, lost in the small landscape taking shape on the canvas. Devorah painted it in bold, simple strokes against a soft peach wall, signed in her own hand at the bottom. It is the kind of piece that makes a studio, bedroom, or gift feel personal. You receive a high-resolution digital file, ready to print at home or through any print shop, in whatever size fits your wall.",
+"faqQuestion": "What is At the Easel?",
+"faqAnswer": "At the Easel is an original painting of an artist working at her easel, sold as a $5 high-resolution digital download ready to print at any size.",
+"tags": [
+"artist at work",
+"studio art",
+"easel painting",
+"digital download",
+"printable wall art"
+],
+"useCase": "art studios, creative workspaces, and gifts for painters",
+"artwork": {
+"remake": {
+"label": "Unknown"
+}
+},
+"type": "Traditional"
+},
+{
+"id": "sunlight-on-canvas",
+"title": "Sunlight on the Canvas",
+"slug": "sunlight-on-canvas",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/sunlight-on-canvas.jpg",
+"imageAlt": "Expressive painting of an artist lit by a beam of sunlight at her easel",
+"seoTitle": "Sunlight on the Canvas | Studio Portrait Painting | Digital Art Download",
+"metaDescription": "An expressive painting of an artist in a golden beam of light, working at her easel. By Devorah, sold as a high-res digital download. Print any size, $5.",
+"description": "Sunlight on the Canvas catches a private studio moment: a figure in blue and green, seated before an easel, while a diagonal shaft of light cuts across a rich ochre wall. The mood is quiet and focused, the kind of concentration that happens when the outside world falls away and only the painting matters. Devorah built the scene with loose, textured brushwork and signed it in Hebrew at the corner. You receive a high-resolution digital file, ready to print at any size for a studio wall, bedroom, or anywhere you want art about making art.",
+"faqQuestion": "What is Sunlight on the Canvas?",
+"faqAnswer": "Sunlight on the Canvas is an original studio painting of an artist at her easel in golden light, sold as a $5 high-resolution digital download.",
+"tags": [
+"artist portrait",
+"studio painting",
+"golden light art",
+"digital download",
+"printable art"
+],
+"useCase": "studios, reading nooks, and spaces that celebrate the creative process",
+"artwork": {
+"created": {
+"date": "May 10, 2025"
+},
+"duration": "1 hour and 18 minutes"
+},
+"type": "Traditional"
+},
+{
+"id": "the-quiet",
+"title": "The Quiet",
+"slug": "the-quiet",
+"price": 3,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/window-seat-waves.jpg",
+"imageAlt": "Digital painting of a woman on a window seat watching surfers and seagulls",
+"seoTitle": "The Quiet | Coastal Window Art | Digital Art Download",
+"metaDescription": "The Quiet is a colorful window-seat painting of surfers and seagulls. Original from 2024, remade March 15, 2026. High-res digital download by Devorah. $3.",
+"description": "The Quiet is a daydream in paint. A woman with orange hair sits barefoot on a cushioned ledge, looking out through a large window at the sea: gulls crossing a blue sky, white-tipped waves, tiny surfers on green and pink boards. Devorah first painted the original in 2024, then remade the piece on March 15, 2026 in flat, confident color with a calm, summery mood. You receive a high-resolution digital file, ready to print at any size. Perfect for a bedroom, coastal-themed room, or anyone who loves the view more than the destination.",
+"faqQuestion": "What is The Quiet?",
+"faqAnswer": "The Quiet is an original coastal window painting, first created in 2024 and remade on March 15, 2026. It is sold as a $3 high-resolution digital download, ready to print at any size.",
+"tags": [
+"coastal art",
+"window seat painting",
+"surfer art",
+"digital download",
+"printable wall art"
+],
+"useCase": "bedrooms, beach houses, and calm spaces with a travel mood",
+"artwork": {
+"formerTitle": "Window Seat Waves",
+"original": {
+"timeframe": "2024"
+},
+"remake": {
+"date": "March 15, 2026"
+}
+},
+"type": "Digital"
+},
+{
+"id": "radiant-joy",
+"title": "Radiant Joy",
+"slug": "radiant-joy",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/joyful-orange-hair.jpg",
+"imageAlt": "Expressive portrait of a smiling woman with wild orange hair and blue eyes",
+"seoTitle": "Radiant Joy | Orange Hair Portrait | Digital Art Print Download",
+"metaDescription": "A joyful portrait of a woman with wild orange hair and a wide smile, surrounded by glowing yellow orbs. By Devorah, sold as a high-res digital download. $5.",
+"description": "Radiant Joy is pure energy on canvas. Wild orange-red hair frames a face lit by a huge, honest smile and bright blue eyes, while soft yellow circles float in the background like little suns. Devorah painted it in expressive, folk-inspired strokes that favor feeling over perfect lines. The result is cheerful, bold, and impossible to ignore on a wall. You receive a high-resolution digital file, ready to print at home or at any print shop, in whatever size fits your space.",
+"faqQuestion": "What is Radiant Joy?",
+"faqAnswer": "Radiant Joy is a bold smiling portrait with wild orange hair, sold as a $5 high-resolution digital download ready to print at any size.",
+"tags": [
+"joyful portrait",
+"orange hair art",
+"expressive face painting",
+"digital download",
+"printable art"
+],
+"useCase": "bedrooms, dorm rooms, and anywhere that needs a burst of happiness",
+"artwork": {
+"created": {
+"date": "March 11, 2025"
+}
+},
+"type": "Traditional"
+},
+{
+"id": "totem-pole-of-humanity",
+"title": "The Totem Pole of Humanity",
+"slug": "totem-pole-of-humanity",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/four-faces.jpg",
+"imageAlt": "Illustration of four overlapping stylized female faces representing different ethnicities",
+"seoTitle": "The Totem Pole of Humanity | Diverse Portrait Illustration | Digital Art Download",
+"metaDescription": "Four overlapping faces representing different ethnicities, drawn April 3, 2026. Hand-drawn by Devorah, sold as a high-res digital download. Print any size, $5.",
+"description": "The Totem Pole of Humanity stacks identity into one vertical story: four stylized women emerging from one another, each face honoring a different ethnicity, skin tones ranging from light to warm brown, eyes left dreamily blank while the background pulses with blue, yellow, and red energy. Devorah drew it in colored pencil on April 3, 2026 with an illustrative, slightly surreal touch. It celebrates diversity without feeling heavy, and it looks striking at poster size. You receive a high-resolution digital file, ready to print for a studio, bedroom, or any wall that honors human difference.",
+"faqQuestion": "What is The Totem Pole of Humanity?",
+"faqAnswer": "The Totem Pole of Humanity is a colored-pencil portrait of four overlapping faces representing different ethnicities, created April 3, 2026 and sold as a $5 high-resolution digital download.",
+"tags": [
+"diverse portrait",
+"ethnicity art",
+"colored pencil illustration",
+"digital download",
+"printable art"
+],
+"useCase": "creative studios, modern bedrooms, and gallery-style accent walls",
+"artwork": {
+"formerTitle": "Many Faces",
+"created": {
+"date": "April 3, 2026"
+}
+},
+"type": "Traditional"
+},
+{
+"id": "through-the-lens",
+"title": "Through the Lens",
+"slug": "through-the-lens",
+"price": 5,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/camera-and-smile.jpg",
+"imageAlt": "Manga-style two-panel drawing of a photographer and a laughing subject",
+"seoTitle": "Through the Lens | Manga Comic Art Print | Digital Art Download",
+"metaDescription": "A sweet two-panel manga drawing of a photographer and the smile they capture. Hand-drawn by Devorah, sold as a high-res digital download. Print any size, $5.",
+"description": "Through the Lens is a small story in two panels. Above, a figure with glasses lifts a camera to their eye. Below, framed like a viewfinder, someone laughs with eyes closed beside a tree, a tiny heart floating nearby. Devorah drew it as a pencil sketch in her sketchbook during the last months of high school in 2026, anime-influenced and tender. It is about noticing someone and catching a moment that would otherwise disappear. You receive a high-resolution digital file, ready to print at any size for a bedroom, dorm, or gift between friends.",
+"faqQuestion": "What is Through the Lens?",
+"faqAnswer": "Through the Lens is an original two-panel manga-style drawing about photography and joy, sketched in Devorah's high school sketchbook in 2026. It is sold as a $5 high-resolution digital download.",
+"tags": [
+"manga art",
+"comic panel drawing",
+"photography art",
+"digital download",
+"printable wall art"
+],
+"useCase": "dorm rooms, anime fans' walls, and thoughtful friendship gifts",
+"artwork": {
+"context": "Pencil sketch in sketchbook, last months of high school, 2026"
+},
+"type": "Traditional"
+},
+{
+"id": "the-beloved-mug",
+"title": "The Beloved Mug",
+"slug": "the-beloved-mug",
+"price": 3,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/beloved-mug.png",
+"imageAlt": "Digital painting of a white mug holding paintbrushes on an artist's desk",
+"seoTitle": "The Beloved Mug | Studio Still Life Painting | Digital Art Download",
+"metaDescription": "A painterly still life of a beloved mug filled with colorful brushes. Hand-painted by Devorah, sold as a high-res digital download. Print any size, $3.",
+"description": "The Beloved Mug is a quiet studio portrait of the tools Devorah reaches for every day. A white ceramic mug, illustrated with a small character chasing letters, holds a bouquet of paintbrushes splashed with leftover color. A bold shadow stretches across the desk while tan walls and brown tabletop keep the scene warm and grounded. Devorah painted it in loose digital strokes with a playful, honest mood. You receive a high-resolution digital file, ready to print at any size for a studio wall, creative workspace, or gift for a fellow painter.",
+"faqQuestion": "What is The Beloved Mug?",
+"faqAnswer": "The Beloved Mug is an original studio still life of a paintbrush mug, sold as a $3 high-resolution digital download ready to print at any size.",
+"tags": [
+"studio still life",
+"artist mug painting",
+"paintbrush art",
+"digital download",
+"printable wall art"
+],
+"useCase": "art studios, creative desks, and gifts for painters",
+"type": "Digital"
+},
+{
+"id": "open-letter",
+"title": "Open Letter",
+"slug": "open-letter",
+"price": 3,
+"currency": "USD",
+"isNew": true,
+"image": "/assets/images/open-letter.png",
+"imageAlt": "Surreal portrait of a figure with a straw hat, flowers, and a sealed letter inside the head",
+"seoTitle": "Open Letter | Surreal Portrait Illustration | Digital Art Download",
+"metaDescription": "A surreal circular portrait with a straw hat, flowers, and a wax-sealed letter. A human-made digital composition by Devorah. Print any size, $3.",
+"description": "Open Letter is a dream portrait inside a teal circle. One side of the face stays calm and simple; the other opens into color: a yellow straw hat, bright flowers, and a sealed envelope floating in the space where thoughts would be. Devorah made it as a digital composition in sketchy, expressive lines with playful surrealism rather than perfect realism. It feels like a message waiting to be read. You receive a high-resolution digital file, ready to print at any size for a bedroom, studio, or anywhere you want art with mystery and heart.",
+"faqQuestion": "What is Open Letter?",
+"faqAnswer": "Open Letter is a surreal digital composition with hat, flowers, and letter imagery, sold as a $3 high-resolution download.",
+"tags": [
+"surreal portrait",
+"expressive illustration",
+"whimsical wall art",
+"digital download",
+"printable art"
+],
+"useCase": "creative studios, modern bedrooms, and thoughtful gift walls",
+"type": "Digital"
+}
+]
 }
